@@ -1,0 +1,11 @@
+{
+  "name": "jsdep",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "fs-extra": "^0.26.4",
+    "jshint": "^2.9.1-rc2",
+    "recast": "^0.10.41",
+    "underscore": "^1.8.3"
+  }
+}

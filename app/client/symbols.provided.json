@@ -1,0 +1,45 @@
+{
+  "angular": {
+    "dependency": "angular",
+    "symbol": "angular",
+    "params": [
+      "$injector", "$http", "$scope", "$rootScope", "$timeout",
+      "$q", "$httpProvider", "$element"
+    ]
+  },
+  "angular-ui-router": {
+    "dependency": "angular-ui-router",
+    "modules": [ "ui.router" ],
+    "params": [ "$stateParams", "$stateProvider", "$state", "$urlRouterProvider" ]
+  },
+  "angular-ui-bootstrap": {
+    "dependency": "angular-ui-bootstrap",
+    "modules": ["ui.bootstrap"],
+    "params": [ "$uibModal", "$uibModalStack" ]
+  },
+  "base64": {
+    "dependency": "base64",
+    "symbol": "base64"
+  },
+  "logger": {
+    "dependency": "utils/logger",
+    "symbol": "logger"
+  },
+  "moment": {
+    "dependency": "moment",
+    "symbol": "moment"
+  },
+  "ag-grid": {
+    "dependency": "ag-grid",
+    "modules": [ "agGrid" ]
+  },
+  "ng-tags-input": {
+    "dependency": "ng-tags-input",
+    "modules": [ "ngTagsInput" ]
+  },
+  "ng-file-upload": {
+    "dependency": "ng-tags-input",
+    "modules": [ "ngFileUpload" ],
+    "params": [ "Upload" ]
+  }
+}
